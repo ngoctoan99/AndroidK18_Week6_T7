@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.DetailFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DA000000">
+        <ImageView
+            android:id="@+id/image_detail"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/ic_launcher_foreground"></ImageView>
+        <TextView
+            android:id="@+id/detail_name_film"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name film"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/image_detail"
+            ></TextView>
+        <TextView
+            android:id="@+id/detail_describe_film"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/detail_name_film"
+            android:text="Describe : "></TextView>
+    </RelativeLayout>
+</FrameLayout>
+</layout>

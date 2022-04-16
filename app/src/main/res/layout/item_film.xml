@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.cardview.widget.CardView
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginTop="5dp"
+    app:cardBackgroundColor="#DA000000"
+    app:cardCornerRadius="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_film"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            ></ImageView>
+        <TextView
+            android:id="@+id/name_film"
+            android:text="Name film"
+            android:layout_toRightOf="@id/image_film"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:id="@+id/describe_film"
+            android:layout_width="wrap_content"
+            android:text="Describe film"
+            android:textColor="@color/white"
+            android:layout_below="@id/name_film"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/image_film"
+            android:layout_height="wrap_content"></TextView>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+</layout>

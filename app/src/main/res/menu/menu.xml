@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/now_play"
+    android:title="Now Play"
+    android:icon="@drawable/now_play"></item>
+    <item
+        android:title="Top Rate"
+        android:id="@+id/top_rate"
+        android:icon="@drawable/top_rate"></item>
+</menu>
